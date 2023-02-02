@@ -1,5 +1,179 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 891938076167575,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 451011972549291,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 563150433487100
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 862516772130524,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 105040486195330,
+					"parameters": {
+						"animation": "\"Happy\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 422412424808356
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 578602442109097,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 193183366803885,
+					"parameters": {
+						"animation": "\"Sad\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 178571560242894
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 407011100414076,
+					"parameters": {
+						"key": 84
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 488258522298509,
+					"parameters": {
+						"animation": "\"Angry\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 963110916577142
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 829242937263746,
+					"parameters": {
+						"key": 89
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 244786622396672,
+					"parameters": {
+						"animation": "\"Sleep\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 198376006676327
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 756154373424208,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Boosy",
+					"sid": 391247754421286,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 655729294932223
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 702495637555770,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Boosy",
+					"sid": 835993418283291,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 505841369129427
+		}
+	],
 	"sid": 294374069729309
 }
