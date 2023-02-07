@@ -173,6 +173,285 @@
 				}
 			],
 			"sid": 505841369129427
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 660907190947186,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Boosy",
+					"sid": 517179699561035,
+					"parameters": {
+						"animation": "\"Idle\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 573850495180167,
+					"parameters": {
+						"instance-variable": "Excitement",
+						"value": "1"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 413648935229219,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "1"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 513502696678900,
+					"parameters": {
+						"instance-variable": "Calm",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 736993561483344
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Boosy",
+					"sid": 799396393453700,
+					"parameters": {
+						"animation": "\"Happy\""
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 766084152592758,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 167155722995555,
+					"parameters": {
+						"instance-variable": "Excitement",
+						"value": "1"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 769117047878226,
+					"parameters": {
+						"instance-variable": "Calm",
+						"value": "1"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 300689996181231,
+					"parameters": {
+						"instance-variable": "Fatigue",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 421261211878503
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Boosy",
+					"sid": 142642455000278,
+					"parameters": {
+						"animation": "\"Sad\""
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 474555983380130,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 998867340544700,
+					"parameters": {
+						"instance-variable": "Calm",
+						"value": "2"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 159703766296364,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 219697796581960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Boosy",
+					"sid": 686345214828551,
+					"parameters": {
+						"instance-variable": "Fatigue",
+						"comparison": 5,
+						"value": "50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Boosy",
+					"sid": 374454051543431,
+					"parameters": {
+						"animation": "\"Sleep\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 139274342804597
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Boosy",
+					"sid": 729098877456207,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"comparison": 5,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Boosy",
+					"sid": 394046868186414
+				}
+			],
+			"sid": 100222673808107
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Boosy",
+					"sid": 766424171181384,
+					"parameters": {
+						"animation": "\"Sleep\""
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 111746829798702,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 393651328859637,
+					"parameters": {
+						"instance-variable": "Fatigue",
+						"value": "5"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 438468963701453,
+					"parameters": {
+						"instance-variable": "Calm",
+						"value": "5"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 904404339279488,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 487405545099872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Boosy",
+					"sid": 961068899323608,
+					"parameters": {
+						"animation": "\"Angry\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 301232317394356,
+					"parameters": {
+						"instance-variable": "Excitement",
+						"value": "1"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 755550121684108,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 669836249549458
 		}
 	],
 	"sid": 294374069729309

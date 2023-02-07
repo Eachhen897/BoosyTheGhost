@@ -32,7 +32,8 @@
 	"objectTypes": {
 		"items": [
 			"Boosy",
-			"Keyboard"
+			"Keyboard",
+			"Couch"
 		],
 		"subfolders": []
 	},

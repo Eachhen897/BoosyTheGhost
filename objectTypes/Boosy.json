@@ -3,7 +3,36 @@
 	"plugin-id": "Sprite",
 	"sid": 441294629946304,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Excitement",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 802780748252150
+		},
+		{
+			"name": "Calm",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 475994520902404
+		},
+		{
+			"name": "Frustration",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 612173566062445
+		},
+		{
+			"name": "Fatigue",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 828319180221256
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "EightDir",

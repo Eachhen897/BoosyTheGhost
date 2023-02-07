@@ -7,35 +7,22 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Boosy",
+					"type": "Couch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Idle",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 2,
+					"uid": 4,
 					"instanceVariables": {},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-8",
-								"set-angle": "no",
-								"allow-sliding": false,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 318,
-						"y": 247,
-						"width": 231.16716500306785,
-						"height": 207.4592599408092,
+						"x": 316.5,
+						"y": 297,
+						"width": 519,
+						"height": 441,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -81,7 +68,55 @@
 			"name": "Game",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "Boosy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"instanceVariables": {
+						"Excitement": 100,
+						"Calm": 100,
+						"Frustration": 0,
+						"Fatigue": 0
+					},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 318,
+						"y": 247,
+						"width": 231.16716500306785,
+						"height": 207.4592599408092,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 916310899227344,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
