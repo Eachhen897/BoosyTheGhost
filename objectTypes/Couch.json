@@ -11,14 +11,14 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 197,
+						"height": 91,
+						"originX": 0.4720812182741117,
+						"originY": 0.6483516483516484,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8781585,
+						"imageSpriteId": 3177967,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
