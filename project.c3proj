@@ -22,6 +22,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -48,7 +55,9 @@
 			"Boosy",
 			"Keyboard",
 			"Couch",
-			"TiledBackground"
+			"TiledBackground",
+			"Window",
+			"Text"
 		],
 		"subfolders": []
 	},

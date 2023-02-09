@@ -452,6 +452,27 @@
 				}
 			],
 			"sid": 669836249549458
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 882505092944698
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 330549283824645,
+					"parameters": {
+						"text": "Boosy.Excitement"
+					}
+				}
+			],
+			"sid": 649222527418563
 		}
 	],
 	"sid": 294374069729309
