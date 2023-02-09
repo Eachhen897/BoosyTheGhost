@@ -74,7 +74,7 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Idle",
-						"initial-frame": 0,
+						"initial-frame": 1,
 						"enable-collisions": true,
 						"live-preview": false
 					},
@@ -102,8 +102,8 @@
 					"world": {
 						"x": 318,
 						"y": 247,
-						"width": 231.16716500306785,
-						"height": 207.4592599408092,
+						"width": 157.3904102148547,
+						"height": 141.2488578320403,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
