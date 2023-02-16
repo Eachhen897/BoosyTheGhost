@@ -5,7 +5,12 @@
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "darken",
+			"name": "Darken"
+		}
+	],
 	"animations": {
 		"items": [
 			{

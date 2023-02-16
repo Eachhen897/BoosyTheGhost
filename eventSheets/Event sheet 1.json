@@ -272,6 +272,15 @@
 						"instance-variable": "Fatigue",
 						"value": "2"
 					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 308004810249476,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "2"
+					}
 				}
 			],
 			"sid": 421261211878503
@@ -313,6 +322,15 @@
 					"parameters": {
 						"instance-variable": "Frustration",
 						"value": "1"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 157784401259327,
+					"parameters": {
+						"instance-variable": "Excitement",
+						"value": "5"
 					}
 				}
 			],
@@ -415,6 +433,15 @@
 						"instance-variable": "Frustration",
 						"value": "1"
 					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Boosy",
+					"sid": 794104214041344,
+					"parameters": {
+						"instance-variable": "Excitement",
+						"value": "10"
+					}
 				}
 			],
 			"sid": 487405545099872
@@ -429,24 +456,50 @@
 					"parameters": {
 						"animation": "\"Angry\""
 					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 647572597242704,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
 				}
 			],
 			"actions": [
 				{
 					"id": "add-to-instvar",
 					"objectClass": "Boosy",
-					"sid": 301232317394356,
+					"sid": 324562662119762,
 					"parameters": {
 						"instance-variable": "Excitement",
-						"value": "1"
+						"value": "5"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 145044912193432,
+					"parameters": {
+						"instance-variable": "Frustration",
+						"value": "2"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Boosy",
+					"sid": 821264187857665,
+					"parameters": {
+						"instance-variable": "Fatigue",
+						"value": "5"
 					}
 				},
 				{
 					"id": "subtract-from-instvar",
 					"objectClass": "Boosy",
-					"sid": 755550121684108,
+					"sid": 529379048774216,
 					"parameters": {
-						"instance-variable": "Frustration",
+						"instance-variable": "Calm",
 						"value": "2"
 					}
 				}
@@ -466,13 +519,87 @@
 				{
 					"id": "set-text",
 					"objectClass": "Text",
-					"sid": 330549283824645,
+					"sid": 866579768792017,
 					"parameters": {
-						"text": "Boosy.Excitement"
+						"text": "\"Excitement:\" & Boosy.Excitement"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text2",
+					"sid": 272589019932062,
+					"parameters": {
+						"text": "\"Fatigue:\" & Boosy.Fatigue"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text3",
+					"sid": 486160393966434,
+					"parameters": {
+						"text": "\"Frustration:\" & Boosy.Frustration"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text5",
+					"sid": 505778897485632,
+					"parameters": {
+						"text": "\"Calm:\" & Boosy.Calm"
 					}
 				}
 			],
 			"sid": 649222527418563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 879090982863736,
+					"parameters": {
+						"interval-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Window",
+					"sid": 184443180037805,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Darken\""
+					}
+				}
+			],
+			"sid": 505880101686354
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 442210583086792,
+					"parameters": {
+						"interval-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "Window",
+					"sid": 190547931872553,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Darken\""
+					}
+				}
+			],
+			"sid": 897977932965028
 		}
 	],
 	"sid": 294374069729309

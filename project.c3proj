@@ -47,6 +47,13 @@
 			"name": "Bound to layout",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "darken",
+			"name": "Darken",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "zlekfrzte50",
@@ -57,7 +64,11 @@
 			"Couch",
 			"TiledBackground",
 			"Window",
-			"Text"
+			"Text",
+			"Text2",
+			"Text3",
+			"Text4",
+			"Text5"
 		],
 		"subfolders": []
 	},
