@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -68,7 +75,10 @@
 			"Text2",
 			"Text3",
 			"Text4",
-			"Text5"
+			"Text5",
+			"TiledBackground2",
+			"Text6",
+			"Button"
 		],
 		"subfolders": []
 	},
@@ -80,13 +90,15 @@
 	},
 	"layouts": {
 		"items": [
+			"Title Sceen",
 			"Layout 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
